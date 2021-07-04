@@ -6,7 +6,7 @@ function Favorite(props) {
 
     const movieId = props.movieId;
     const userFrom = props.userFrom;
-    const movietitle = props.movieInfo.title;
+    const movieTitle = props.movieInfo.title;
     const moviePost = props.movieInfo.backdrop_path;
     const movieRunTime = props.movieInfo.runtime
 
@@ -16,7 +16,7 @@ function Favorite(props) {
     let variables = {
         userFrom: userFrom,
         movieId: movieId,
-        movietitle: movietitle,
+        movieTitle: movieTitle,
         moviePost: moviePost,
         movieRunTime: movieRunTime
     }
