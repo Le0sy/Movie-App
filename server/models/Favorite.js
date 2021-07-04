@@ -19,8 +19,7 @@ const favoriteSchema = mongoose.Schema({
         type: String
     }
 }, { timestamps: true })
-// timestamp 생성된 시간을 자동으로 처리해줌
 
-const favorite = mongoose.model('Favorite', favoriteSchema);
+const Favorite = mongoose.model('Favorite', favoriteSchema);
 
-module.exports = { favorite };
+module.exports = { Favorite }
